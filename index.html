@@ -5,45 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <aside>
-        <div><img src="./assets/logo.png" alt="logo"></div>
+        <div>
+            <img src="./assets/logo.png" alt="logo">
+            <h1>Odin</h1>
+        </div>
     </aside>
     <main>
-        <p>This is not a real online service! You know you need something like this in your life to help you realize
-            your deepest dreams. Sign up <em>now</em> to get started</p>
-        <p>You <em>know</em> you want to</p>
+        <div id="signInText">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize
+                your deepest dreams. Sign up <em>now</em> to get started</p>
+            <p>You <em>know</em> you want to</p>
+        </div>
 
-        <form>
-            Let's do this!
+        <div id="form">
+            <h2>Let's do this!</h2>
+            <form>
 
-            <div>
-                <label for="">First Name</label>
-                <input type="text">
-                <label for="">Last Name</label>
-                <input type="text">
-            </div>
+                <div>
+                    <label for="">FIRST NAME</label>
+                    <input type="text">
 
-            <div>
-                <label for="">Email</label>
-                <input type="email">
-                <label for="">Phone Number</label>
-                <input type="tel">
-            </div>
+                    <label for="">EMAIL</label>
+                    <input type="email">
 
-            <div>
-                <label for="">Password</label>
-                <input type="password">
-                <label for="">Confirm Password</label>
-                <input type="password">
-            </div>
-        </form>
+                    <label for="">PASSWORD</label>
+                    <input type="password">
+                </div>
 
-        <button>Create Account</button>
+                <div>
+                    <label for="">LAST NAME</label>
+                    <input type="text">
 
-        <span>Already have an account?  <a href="">Log in</a> </span>
+                    <label for="">PHONE NUMBER</label>
+                    <input type="tel">
+
+                    <label for="">CONFIRM PASSWORD</label>
+                    <input type="password">
+                </div>
+            </form>
+        </div>
+
+        <div id="actions">
+            <button>Create Account</button>
+
+            <span>Already have an account? <a href="">Log in</a> </span>
+        </div>
+
     </main>
 </body>
 

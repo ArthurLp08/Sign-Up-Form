@@ -1,0 +1,138 @@
+@font-face {
+  font-family: Norse;
+  src: url(./assets/Norsebold.otf); 
+}
+
+body, html{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+aside{
+    background-image: url(./assets/background.jpg);
+    height: 100vh;
+    max-width: 700px;
+    width: 100%;
+    background-size: cover;
+}
+
+aside h1{
+    font-family: Norse;
+    color: #fff;
+    font-size: 100px;
+}
+
+aside div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    margin-top: 200px;
+}
+
+aside img{
+    width: 200px;
+    height: 200px;
+}
+
+main{
+    background-color: #eeeeee;
+}
+
+#signInText{
+    padding: 32px;
+}
+
+main p{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 32px;
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+input:focus{
+  border-color: blue;
+  outline: 0;
+  box-shadow: 0px 2px 4px 0px #00000036;
+}
+
+button{
+    background-color: #596D48;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px #00000036;
+}
+
+#form{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+      box-shadow: 0px 2px 4px 0px #00000036;
+}
+
+form{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 32px;
+}
+
+form label{
+    font-size: 14px;
+}
+
+form h2{
+    font-size: 20px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+#actions{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#actions span{
+    font-size: 18px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
